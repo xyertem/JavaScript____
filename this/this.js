@@ -34,6 +34,6 @@ function talk(){
   console.log(`${this._firstname} is talking`)
 }
 
-talk.bind(Person)()
+talk.bind(Person)()// burda yeni yaratılan objeyi verirsek this elde etmiş olacağız
 
 
