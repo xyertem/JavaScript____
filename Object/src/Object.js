@@ -16,9 +16,11 @@ const transformer = {
      }
 }
 
-//var veichleType = function(sVname) { console.log(this.fullname() +  ` and choose to be turn an ${sVname}`)} 
-//transformer._Name = 'Optimus prime'
-//transformer._Type = 'Otobot'
+var veichleType = function(sVname) {
+    console.log(this.fullname() +  ` and choose to be turn an ${sVname}`)
+} 
+transformer._Name = 'Optimus prime'
+transformer._Type = 'Otobot'
 
 //let vt = veichleType.bind(transformer)
 //veichleType.apply(transformer,['camaro'])
