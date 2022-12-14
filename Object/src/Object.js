@@ -16,22 +16,20 @@ const transformer = {
      }
 }
 
-var veichleType = function(sVname) {
-    console.log(this.fullname() +  ` and choose to be turn an ${sVname}`)
-} 
-transformer._Name = 'Optimus prime'
-transformer._Type = 'Otobot'
+//var veichleType = function(sVname) { console.log(this.fullname() +  ` and choose to be turn an ${sVname}`)} 
+//transformer._Name = 'Optimus prime'
+//transformer._Type = 'Otobot'
 
-let vt = veichleType.bind(transformer)
-veichleType.apply(transformer,['camaro'])
-veichleType.call(transformer,'camaro')
+//let vt = veichleType.bind(transformer)
+//veichleType.apply(transformer,['camaro'])
+//veichleType.call(transformer,'camaro')
 // transformer.sName = 'Bumble bee'
 // transformer.sType = 'Otobot'
 // console.log(transformer.fullname())
 // transformer.fullname()
 // veichleType('camoro')
 vt('truck')
-var Dur = 'Dur' 
+// var Dur = 'Dur' 
 
 function sqlTables(){
     return{
