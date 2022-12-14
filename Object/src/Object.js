@@ -45,3 +45,6 @@ function getUsers(){
 }
 
 getUsers()
+
+const x = {"a.a": 1}
+console.log(x["a.a"])
