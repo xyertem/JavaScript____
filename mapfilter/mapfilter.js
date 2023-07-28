@@ -25,4 +25,8 @@ let filtered = obj.filter(n => n.userId === 109101).map(n => {
   n.userId = 109107
   return {userId: n.userId}
 })
-console.log(filtered)
+console.log(filtered)  
+
+obj.forEach(item => {
+  console.log(item)
+})
