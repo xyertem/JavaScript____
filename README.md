@@ -1,2 +1,2 @@
 # JavaScript____
-JavaScript atomlarına ayırma reposu reposu
+JavaScript atomlarına ayırma reposu 
